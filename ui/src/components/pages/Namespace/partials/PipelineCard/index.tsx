@@ -532,6 +532,7 @@ export function PipelineCard({
                 value={editOption}
                 variant="outlined"
                 disabled={pipelineStatus === DELETING}
+                data-testid="pipeline-card-edit-select"
                 sx={{
                   color: "#0077C5",
                   height: "34px",
